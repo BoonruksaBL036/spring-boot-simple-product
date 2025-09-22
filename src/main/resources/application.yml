@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-sqlite
+
+  datasource:
+    url: jdbc:sqlite:products.db
+    driver-class-name: org.sqlite.JDBC
+    username:
+    password:
+
+  sql:
+    init:
+      mode: always
